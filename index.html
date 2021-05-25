@@ -30,6 +30,8 @@
                         <input type="text" id="adr" name="address" placeholder="110 W. 15th Phnom Penh" required>
                         <label for="city"><i class="fa fa-institution"></i> City</label>
                         <input type="text" id="city" name="city" placeholder="Phnom Penh" required>
+                        <label for="Phone No"><i class="fa fa-institution"></i> Phone No</label>
+                        <input type="text" id="phn" name="phone no" placeholder="11111 22222" required>
 
                         <div class="row">
                             <div class="col-50">
@@ -106,6 +108,9 @@
             city: {
                 required: true,
             },
+            PhoneNo:{
+                required:true,
+            },
             state: {
                 required: true,
             },
@@ -135,6 +140,7 @@
             city:"Please input city*",
             address:"Please input address*",
             state:"Please input state*",
+            PhoneNo:"Please enter your phone number*",
             zip:"Please input address*",
             cardname:"Please input card name*",
             cardnumber:"Please input card number*",
